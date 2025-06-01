@@ -9,7 +9,7 @@ const Experience = () => {
     { name: "MongoDB", level: "Intermediate" },
     { name: "SQL", level: "Intermediate" },
     { name: "HTML", level: "Basic" },
-    { name: "Javacript", level: "Intermediate" },
+    { name: "Javascript", level: "Intermediate" },
     { name: "CSS", level: "Intermediate" },
     { name: "React", level: "Intermediate" },
   ];
@@ -17,7 +17,7 @@ const Experience = () => {
   const AISkills = [
     { name: "Model Development", level: "Basic" },
     { name: "Data Analysis", level: "Intermediate" },
-    { name: "Predictive Analitics", level: "Intermediate" },
+    { name: "Predictive Analytics", level: "Intermediate" },
     
   ];
 
