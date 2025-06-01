@@ -1,0 +1,73 @@
+#education-timeline {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+  color: #f1f1f1;
+}
+
+.timeline-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #f8f8f8;
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 40px; /* space for line and dots */
+}
+
+.vertical-line {
+  position: absolute;
+  top: 0;
+  left: 58px; /* align center of dot */
+  width: 4px;
+  background-color: #3498db;
+  transition: height 0.4s ease-out;
+  z-index: 0; /* behind dots */
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  background-color: #3498db;
+  border: 3px solid white;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translateX(-50%); /* ✅ align center exactly */
+}
+
+
+
+.content {
+  padding-left: 70px;
+}
+
+.content h3 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.2rem;
+  color: #5aa3ec;
+}
+
+.timeline-date {
+  font-size: 0.9rem;
+  color: #ad9c9c;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #edebeb;
+}
