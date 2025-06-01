@@ -4,11 +4,11 @@ import { FaCheckCircle } from "react-icons/fa";
 const Experience = () => {
  
   const WebSkills = [
-    { name: "Flask", level: "Basic" },
+    { name: "Flask", level: "Intermediate" },
     { name: "Nodejs", level: "Intermediate" },
     { name: "MongoDB", level: "Intermediate" },
     { name: "SQL", level: "Intermediate" },
-    { name: "HTML", level: "Basic" },
+    { name: "HTML", level: "Advanced" },
     { name: "Javascript", level: "Intermediate" },
     { name: "CSS", level: "Intermediate" },
     { name: "React", level: "Intermediate" },
@@ -23,10 +23,10 @@ const Experience = () => {
 
   const CyberSkills = [
     
-    { name: "Ganache", level: "Intermediate" },
-    { name: "Docker", level: "Intermediate" },
+    { name: "Ganache", level: "Basic" },
+    { name: "Docker", level: "Basic" },
     { name: "solidity", level: "Intermediate" },
-    { name: "Blockchain technology", level: "Intermediate" },
+    { name: "Blockchain technology", level: "Basic" },
     
   ];
 
